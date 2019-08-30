@@ -1,0 +1,44 @@
+body { 
+	background-color: Bisque;
+	overflow:hidden;
+	
+ }
+
+ ul { 
+ 	/*display: block;
+	float: left;*/
+	text-align: center;
+  }
+
+li {
+	list-style-type: none;
+	display: inline;
+	float: center;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: "DIN Condensed";
+	line-height: 1.5;
+	
+
+
+}
+
+a{ 
+	color: white;
+	text-decoration: none;
+	padding: 40px;
+	text-align: center;
+ }
+
+ a:hover {
+ 	color: rgb(255, 138, 169);
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-family: "DIN Condensed";
+ 	font-size: 100px;
+ 	padding-top: 150px;
+ 	color: tomato;
+ }
