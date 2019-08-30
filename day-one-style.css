@@ -1,14 +1,57 @@
 body{ 
-	background-color: rgb(181, 223, 255);
+	/*background-color: rgb(181, 223, 255);*/
+	background-color: SteelBlue;
 	overflow: hidden
  }
 
- h1 {
+ h3 {
  	font-family: "DIN Condensed";
- 	font-size: 150px;
+ 	font-size: 60px;
  	color: white;
  	padding-left: 40px;
+ 	text-align:center;
+ 	z-index: 2;
+ 	top: 50px;	
+ }
 
 
- 	
+ img { 
+ 	opacity: .9;
+ 	/*box-shadow: 0 0 15px 15px #9fd4fc;*/
+ 	z-index: 1;
+  }
+
+  #generateButton {
+  	text-align: center;
+  	background-color: LightSteelBlue;
+  	color: White;
+  	font-size: 28px;
+  	font-family: "DIN Condensed";
+  	padding: 10px 7px 7px 10px;
+  	border:none;
+  	position:absolute;
+  	top: 60vh;
+  	left: calc(50% - 80px);
+  	opacity: .8;
+  }
+
+  #generateButton:hover {
+  	opacity: 1;
+  	/*color: LightSteelBlue;*/
+  }
+
+  #generatedAnswer {
+    font-family: "DIN Condensed";
+   	color: LightSteelBlue;
+   	text-align: center;
+    z-index: 3;
+    font-size: 70px;
+    /*width: 50%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    /*position:absolute;*/
+    /*top: 67vh;
+    left: calc(50% - 200px);*/
  }
