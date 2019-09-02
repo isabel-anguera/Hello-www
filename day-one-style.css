@@ -40,6 +40,10 @@ body{
   	/*color: LightSteelBlue;*/
   }
 
+  #generateButton:active {
+    background-color: SteelBlue;
+  }
+
   #generatedAnswer {
     font-family: "DIN Condensed";
    	color: LightSteelBlue;

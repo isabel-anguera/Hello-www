@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+
+}
+
+h1 {
+	/*max-width: 500px;*/
+	color: black;
+	width: 90%;
+	/*text-align: center;*/
+	font-family: "DIN Condensed";
+	font-size: 70px;
+	margin-left: 40px;
+	/*margin-block-start: 3px;*/
+	margin-block-end: 5px;
+	border-bottom: 5px solid GoldenRod;
+
+
+}
+
+h3 {
+	font-family: "DIN Condensed";
+	margin-left: 40px;
+	font-size: 30px;
+	margin-block-end: 5px;
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	margin: 10px 50px 50px 50px;
+}
+
+.pics {
+	background-color: white;
+	padding: 5px;
+	padding-top: 40px;
+	border-radius: 30px;
+	text-align: center;
+	
+
+
+}
+
+.pics:hover {
+	border: 5px solid black;
+}
+
+.pics:active {
+	border-color: GoldenRod;
+}
+
+
+
+
