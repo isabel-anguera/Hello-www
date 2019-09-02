@@ -38,17 +38,23 @@ h3 {
 	padding-top: 40px;
 	border-radius: 30px;
 	text-align: center;
-	
+	color: white;	
+	font-family: "Apple Symbols";
+	font-size: 20px;
+	text-align: center;
 
 
 }
 
 .pics:hover {
-	border: 5px solid black;
+	border: 3px solid black;
+	color: SlateGrey;
+
 }
 
 .pics:active {
 	border-color: SlateGrey;
+	color: GoldenRod;
 }
 
 
