@@ -35,12 +35,24 @@ a{
  	color: rgb(255, 138, 169);
  }
 
+ a:active {
+ 	color: white;
+ }
+
  h1 {
  	text-align: center;
  	font-family: "DIN Condensed";
  	font-size: 100px;
  	padding-top: 150px;
  	color: tomato;
+ }
+
+ h4 {
+ 	text-align: center;
+ 	font-family: "DIN Condensed";
+ 	color: white;
+ 	font-size: 20px;
+ 	padding: 50px;
  }
 
  
