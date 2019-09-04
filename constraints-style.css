@@ -1,0 +1,12 @@
+body {
+	background-color: Bisque;
+	/*overflow:hidden;*/
+}
+
+p {
+	font-family: "DIN Condensed";
+	font-size: 40px;
+	text-align: center;
+	color: tomato;
+	margin: 150px 60px;
+}
